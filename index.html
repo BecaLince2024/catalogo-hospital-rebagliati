@@ -51,7 +51,7 @@ footer{text-align:center; padding:28px; color:var(--muted)}
 <body>
 <header>
   <div class="container hrow">
-    <div class="brand">PUCP · Catálogo</div>
+    <div class="brand">HNERM · Catálogo</div>
     <div class="search"><input id="search" type="text" placeholder="Buscar: producto o categoría… (ej. airpods, belleza, cooler)"></div>
     <select id="cat">
       <option value="">Todas las categorías</option>
@@ -147,7 +147,7 @@ function makeCard(item) {
       <div class="price">${item.precio_texto || '-'}</div>
       <div class="actions">
         <a class="btn" href="${item.media}" target="_blank" rel="noopener">Abrir media</a>
-        <button class="btn primary" onclick='openMedialab("${encodeURIComponent(item.nombre)}")'>Comprar (PUCP)</button>
+        <button class="btn primary" onclick='openMedialab("${encodeURIComponent(item.nombre)}")'>Comprar (HNERM)</button>
       </div>
     </div>
   </article>`;
